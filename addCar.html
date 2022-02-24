@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Car</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="addCar.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-item"><button class="nav-link" id="cars-display-button">CARS</button></div>
+        <div class="nav-item"><button class="nav-link" id="cars-add-button">ADD CAR</button></div>
+    </nav>
+    <main id="main-wrapper" class="main-wrapper car-display-wrapper">
+        <section id="card-container" class="card-container">
+            
+        </section>
+    </main>
+    <main id="form-wrapper" class="main-wrapper add-car-wrapper hidden">
+        <section class="form-container">
+            <h1 class="add-new-car-title">Add new car</h1>
+            <h3 class="new-car-text"></h3>
+            <form action="" class="add-car-form" id="add-car-form">
+                <label for="">Car brand:</label>
+                <input type="text" name="" id="car-brand-input">
+                <label for="">Licence number:</label>
+                <input type="text" name="" id="licence-number-input">
+                <label for="">Image:</label>
+                <input type="text" name="" id="image-input">
+                <label for="">Price:</label>
+                <input type="number" name="" id="price-input">
+                <button id="submit-button" class="submit-button">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
